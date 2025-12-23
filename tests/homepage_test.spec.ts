@@ -8,8 +8,6 @@ const title = await page.title();
 if (AMAZON_TITLE_REGEX.test(title)) {
   console.log("Title is valid");
 }
-
-
 });
 
 
