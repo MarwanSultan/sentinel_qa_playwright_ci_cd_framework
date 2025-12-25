@@ -1,35 +1,78 @@
-# Sentinel QA Playwright CI/CD Framework
+# Sentinel QA – Playwright CI/CD Automation Framework
 
-**Playwright test automation framework with Agentic AI features using Claude AI.**  
-A scalable, maintainable end-to-end QA automation framework built on **Playwright** with integrated **AI-driven testing capabilities** powered by Claude AI agents. Supports CI/CD workflows, modular test design, and dynamic test orchestration for web applications.
+🚀 **Sentinel QA** is a modern, scalable, and security-aware **Playwright-based end-to-end test automation framework** built with **TypeScript** and designed for **CI/CD pipelines, cloud-native applications, and DevSecOps environments**.
 
----
-
-## 🧠 Key Features
-
-- **Playwright-based E2E Test Framework**  
-  Robust, cross-browser test automation using Playwright and TypeScript.
-
-- **Agentic AI Integration**  
-  Leverages Claude AI agents for intelligent test suggestions, dynamic scenario generation, and enhanced automation workflows.
-
-- **CI/CD Ready**  
-  Integrates seamlessly with GitHub Actions or other CI/CD tools to automate test execution during build and deployment pipelines.
-
-- **Modular and Scalable Structure**  
-  Organized with reusable fixtures, page objects, and test components for maintainable test suites.
-
-- **Best Practices Built-In**  
-  Designed for readability, maintainability, and scalability in real-world QA workflows.
+This framework emphasizes:
+- High-quality automated testing
+- AI-assisted test intelligence (Claude AI agents)
+- Secure-by-design CI/CD practices
+- Enterprise-grade scalability and maintainability
 
 ---
 
-## 🧱 Typical Use Cases
+## 🔑 Key Features
 
-- Automated regression and acceptance testing  
-- Cross-environment validation in CI/CD pipelines  
-- AI-augmented test generation and scenario coverage  
-- Collaboration between QA automation teams and DevOps engineers
+### ✅ End-to-End Automation
+- Built on **Playwright + TypeScript**
+- Supports **Chromium, Firefox, and WebKit**
+- Parallel execution & cross-browser testing
+- Page Object Model (POM) architecture
+
+### 🤖 AI-Assisted Testing (Claude AI Agents)
+- Intelligent test reasoning and validation
+- AI-assisted failure analysis
+- Dynamic assertion support
+- Human-readable explanations for test results
+
+### 🔄 CI/CD Ready
+- GitHub Actions–friendly
+- Environment-based configuration
+- Fast feedback loops for pull requests and merges
+
+### 🔐 Security-First Mindset (DevSecOps)
+- No hardcoded secrets
+- Environment variable–driven configuration
+- Integrated **static application security testing (SAST)** using **CodeQL**
+
+---
+
+## 🛡️ Security & Code Quality
+
+### 🔍 CodeQL Static Code Analysis
+
+This repository integrates **GitHub CodeQL** to automatically scan the codebase for:
+- Security vulnerabilities
+- Unsafe coding patterns
+- Common JavaScript / TypeScript weaknesses
+- Dependency misuse and injection risks
+
+**CodeQL runs automatically on:**
+- Pull requests
+- Pushes to protected branches
+
+📁 Configuration location:
+Results appear in:
+> **GitHub → Security → Code scanning alerts**
+
+This enforces **shift-left security** and aligns with modern **DevSecOps best practices**.
+
+---
+
+## 🤖 Using Claude AI Agents
+
+Sentinel QA integrates **Claude AI agents** as an intelligent reasoning layer to enhance automated testing. These agents assist QA engineers by analyzing application behavior, validating UI flows, and explaining failures in both local and CI environments.
+
+### 🧠 What Claude AI Agents Are Used For
+
+Claude agents can:
+- Analyze test failures and suggest root causes
+- Validate UI content and workflows dynamically
+- Assist with exploratory testing logic
+- Generate intelligent edge-case scenarios
+- Provide human-readable explanations for failures in CI
+- Reduce brittle assertions by using reasoning-based validation
+
+Claude **does not replace Playwright** — it augments it.
 
 ---
 
