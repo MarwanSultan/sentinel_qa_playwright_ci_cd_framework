@@ -84,6 +84,13 @@ Claude **does not replace Playwright** — it augments it.
 - Playwright (`npm install -D @playwright/test`)
 
 ### Installation
+
+### AI Agent Installation
+```bash
+npx playwright init-agents --loop=vscode
+```
+
+### Repository Setup
 ```bash
 git clone https://github.com/MarwanSultan/sentinel_qa_playwright_ci_cd_framework.git
 cd sentinel_qa_playwright_ci_cd_framework
