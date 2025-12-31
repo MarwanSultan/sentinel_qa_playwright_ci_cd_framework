@@ -39,3 +39,54 @@ sentinel-playwright-ci-cd/
 ├── playwright.config.ts
 ├── .github/workflows/  # CI pipelines
 └── README.md
+```
+
+## 📂 Prerequisites
+
+### Verify installation
+```
+node -v
+npm -v
+git --version
+```
+
+
+## ▶️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```
+git clone https://github.com/MarwanSultan/sentinel-playwright-ci-cd.git
+cd sentinel-playwright-ci-cd
+```
+
+### 2️⃣ Install project dependencies
+```
+npm install
+```
+
+### 3️⃣ Install Playwright browsers
+```
+npx playwright install
+```
+
+### ▶️ Running Tests
+```
+npx playwright test
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
