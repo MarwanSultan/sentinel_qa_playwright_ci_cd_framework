@@ -1,92 +1,40 @@
-# Sentinel Playwright CI/CD Framework
+# Fed Test AI Automation Pipeline
 
-🚀 **Sentinel** is a modern, scalable QA automation framework built with **Playwright**, designed for **CI/CD-first testing**, enterprise-grade web applications, and AI-assisted test workflows.
-
----
-
-## 🧪 Key Features
-
-- End-to-end UI testing using **Playwright**
-- CI/CD-ready architecture (GitHub Actions / Jenkins friendly)
-- Page Object Model (POM) for maintainability
-- Cross-browser testing (Chromium, Firefox, WebKit)
-- Parallel test execution
-- Environment-based configuration
-- Screenshot, video, and trace capture on failure
-- Designed for AI-assisted test creation (LLM-ready)
+AI‑augmented test automation pipeline that orchestrates end‑to‑end UI and functional testing with Playwright and TypeScript. Designed to support CI/CD workflows with intelligent test planning and execution.
 
 ---
 
-## 🏗️ Tech Stack
+## Key Features
 
-- **Language:** TypeScript / JavaScript
-- **Test Framework:** Playwright
-- **Runtime:** Node.js
-- **CI/CD:** GitHub Actions (extensible to Jenkins, GitLab CI)
-- **Design Pattern:** Page Object Model (POM)
-- **Reporting:** Playwright HTML Reports
+* **AI‑Enhanced Workflows** — Integrates AI‑driven logic to prioritize and orchestrate test execution.
+* **Playwright‑Powered Automation** — End‑to‑end browser testing using Playwright for robust cross‑browser support.
+* **CI/CD Integration** — Works seamlessly with GitHub Actions for automated test runs during build and deployment.
+* **Structured Test Design** — Modular organization with reusable components and structured test plans.
+* **Scalable & Maintainable** — Built for real‑world automation needs with maintainability and extensibility in mind.
 
 ---
 
-## 📂 Project Structure
+## Typical Use Cases
 
-```text
-sentinel-playwright-ci-cd/
-├── tests/              # Test specifications
-├── pages/              # Page Object Models
-├── fixtures/           # Custom fixtures & hooks
-├── utils/              # Helper utilities
-├── playwright.config.ts
-├── .github/workflows/  # CI pipelines
-└── README.md
-```
+* Automated regression and acceptance testing
+* Continuous integration test gating
+* Intelligent test scheduling in pipelines
+* Collaboration among QA and DevOps teams
 
-## 📂 Prerequisites
+---
 
-### Verify installation
-```
-node -v
-npm -v
-git --version
-```
+## Getting Started
 
+### Prerequisites
 
-## ▶️ Installation & Setup
+* Node.js >= 18.x
+* npm >= 9.x
+* Playwright (`npm install -D @playwright/test`)
 
-### 1️⃣ Clone the repository
-```
-git clone https://github.com/MarwanSultan/sentinel-playwright-ci-cd.git
-cd sentinel-playwright-ci-cd
-```
+### Installation
 
-### 2️⃣ Install project dependencies
-```
+```bash
+git clone https://github.com/MarwanSultan/fed_test_ai_automation_pipeline.git
+cd fed_test_ai_automation_pipeline
 npm install
-```
-
-### 3️⃣ Install Playwright browsers
-```
 npx playwright install
-```
-
-### ▶️ Running Tests
-```
-npx playwright test
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
